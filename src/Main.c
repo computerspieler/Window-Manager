@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
 	/* This is hard coded for now, but in the near future, il will be automatically detected */
-	if(WindowManager_init(":100"))
+	if(WindowManager_init(NULL))
 		return -1;
 	WindowManager_run();
 	return WindowManager_exit();
